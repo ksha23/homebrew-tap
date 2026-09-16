@@ -28,7 +28,8 @@ cask "preroll" do
     admin password once. Set it to Inactive in the menu before uninstalling,
     otherwise the override stays behind in /Library/Preferences/com.apple.airplay.
 
-    This build is not notarized yet, so install it with:
-      brew install --cask --no-quarantine ksha23/tap/preroll
+    This build is not notarized yet, so macOS refuses the first launch. Open
+    System Settings > Privacy & Security and press Open Anyway. To avoid that
+    altogether, build it from source: github.com/ksha23/preroll
   EOS
 end
