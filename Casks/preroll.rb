@@ -1,6 +1,6 @@
 cask "preroll" do
-  version "0.0.0"
-  sha256 :no_check
+  version "1.0.0"
+  sha256 "4bdf24326fa80555784b7d388aa517537150b7b961823b022538de0ef4bb0468"
 
   url "https://github.com/ksha23/preroll/releases/download/v#{version}/Preroll-#{version}.zip"
   name "Preroll"
