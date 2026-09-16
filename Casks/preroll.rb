@@ -4,7 +4,7 @@ cask "preroll" do
 
   url "https://github.com/ksha23/preroll/releases/download/v#{version}/Preroll-#{version}.zip"
   name "Preroll"
-  desc "Menu bar app that cuts macOS AirPlay output latency"
+  desc "Menu bar app that cuts AirPlay output latency"
   homepage "https://github.com/ksha23/preroll"
 
   livecheck do
@@ -12,7 +12,7 @@ cask "preroll" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Preroll.app"
   # The measurement tools ride inside the bundle
